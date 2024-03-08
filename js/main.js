@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id}`)
       .then((response) => response.json())
       .then((data) => {
-        // console.log(data.drinks[0]);
         // Construct the HTML for drink details
         // Including name, image, ingredients, instructions, and glass type
         // Append the HTML to the 'drinkDetails' div
@@ -76,10 +75,6 @@ document.addEventListener("DOMContentLoaded", function () {
       fetch(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id}`)
         .then((response) => response.json())
         .then((data) => {
-          // console.log(data.drinks[0])
-          // console.log(data.drinks[0].idDrink)
-          // console.log(data.drinks[0].strDrink)
-
           const li = document.createElement("li");
           li.textContent = data.drinks[0].strDrink;
           popularDrinksList.appendChild(li);
@@ -96,12 +91,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const popularDrinksIdArray = [
     11000, 11001, 11002, 11003, 11004, 11005, 11006, 11007, 178370,
   ];
+
   fetchPopularDrinkList(popularDrinksIdArray);
   const randomPopDrink =
     popularDrinksIdArray[
       Math.floor(Math.random() * popularDrinksIdArray.length)
     ];
-  console.log(randomPopDrink);
+
   // displays initial drink
   fetchAndDisplayDrinkDetails(randomPopDrink);
 
