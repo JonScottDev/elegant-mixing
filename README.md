@@ -8,7 +8,7 @@ Simple website that teaches you how to make your favorite drink! Check out some 
 
 ## How It's Made
 
-**Tech used:** HTML, CSS, JavaScript
+**Tech used:** <img src="https://skillicons.dev/icons?i=html,css,javascript&perline=8" />
 
 Elegant mixing is a web application that uses HTML, CSS, and JavaScript to create a simple interface that allows a user to make a request to the cocktail DB API and which serves the client-side popular drink recipes. 
 
