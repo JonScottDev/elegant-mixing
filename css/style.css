@@ -31,6 +31,7 @@
 html {
   font-size: 62.5%;
   font-family: "Merriweather", serif;
+  scrollbar-color: #db7251 #fff;
 }
 
 body {
@@ -205,27 +206,6 @@ section {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-/* Styling for the scrollbar */
-/* -----SCROLLBAR----- */
-/* width */
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #fe633d; /* Orange color */
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #ff4500; /* Darker shade of orange on hover */
-}
 
 /* Responsiveness */
 
