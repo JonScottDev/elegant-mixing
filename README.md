@@ -1,26 +1,21 @@
-# PROJECT TITLE
+# Elegant Mixing
 
-Web application that uses the cocktail DB api to serve clients recipes to popular drinks.
+Simple website that teaches you how to make your favorite drink! Check out some crowd favorites or search for your favorite drink.
 
-![](GIF OF PROJECT)
+![](https://github.com/JonScottDev/elegant-mixing/blob/main/img/Animation.gif)
 
-**Link to project:** [TITLE](URL)
+**Link to project:** [Elegant Mixing](https://elegant-mixing.netlify.app/)
 
 ## How It's Made
 
-HTML
-CSS
-JavaScript
+**Tech used:** HTML, CSS, JavaScript
 
-LONGER DESCRIPTION
-
-**Packages/Dependencies used:** 
+Elegant mixing is a web application that uses HTML, CSS, and JavaScript to create a simple interface that allows a user to make a request to the cocktail DB API and which serves the client-side popular drink recipes. 
 
 ## Optimizations
 
-- CHANGES YOU WOULD MAKE
+- CHANGES I WOULD MAKE
+I need to go back and refactor my code. It is a bit "wet" and I believe there are areas to reduce the amount of code.
+
 - THINGS YOU WANT TO ADD
-
-## Lessons Learned
-
-CHALLENGES YOU OVERCAME, WHAT YOU LEARNED
+I would like to add a way for users to store their previous searches in case they come back to the website at a later date. I would do this with localStorage
