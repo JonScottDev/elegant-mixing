@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elegant Mixing</title>
+
+    <!-- external CSS link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar--logo-container">
+        <img src="img/logolg.png" alt="elegant mixing logo" />
+      </div>
+    </nav>
+    <main class="container">
+      <section id="lft">
+        <div class="lft--search-container">
+          <div class="lft--search-field">
+            <input
+              id="search-input"
+              type="text"
+              placeholder="Search Cocktail by Name"
+            />
+            <button id="search-btn">Search</button>
+          </div>
+          <div>
+            <ul id="results">
+              <!-- search results come here dynamically -->
+            </ul>
+          </div>
+          <p class="lft--search-container--p">- OR -</p>
+          <button id="random-drink">Random Cocktail</button>
+        </div>
+        <div id="recent-history">
+          <h3 class="secondary-header">Crowd Favorites</h3>
+          <div class="cocktail">
+            <!-- List of latest cocktails appended dynamically -->
+            <ul id="latest-cocktail-list"></ul>
+          </div>
+        </div>
+      </section>
+      <section id="rght">
+        <h2 class="rght--header">Cocktail Name</h2>
+        <div class="rght--cocktail-image">
+          <!-- Image of the cocktail -->
+        </div>
+        <h3 class="secondary-header">Ingredients</h3>
+        <div class="ingredients">
+          <!-- Ingredient cards appended dynamically -->
+        </div>
+        <h3 class="secondary-header">Instructions</h3>
+        <p class="instructions-text">
+          <!-- Instructions fetched from the server -->
+        </p>
+        <h3 class="secondary-header">Glass</h3>
+        <p class="glass-text">
+          <!-- Glass fetched from the server -->
+        </p>
+      </section>
+    </main>
+    <footer id="footer">
+      <p class="footer">
+        © 2024 Elegant Mixing • Built by
+        <a href="#" target="_blank">Jon the Dev</a>
+      </p>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
